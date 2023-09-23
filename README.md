@@ -3,9 +3,9 @@
 - otp-verification-client is a frontend part of a dummy application capable of otp-verification.
 - Application has same design corresponding to figma design.
 - The App has 3 screens:
-  Screen-1: Mobile Number Screen(SignIn.jsx)
-  Screen-2: OTP Verification Screen(Otp.jsx)
-  Screen-3: Success Screen(Success.jsx)
+  Screen-1: Mobile Number Screen(SignIn.jsx)  
+  Screen-2: OTP Verification Screen(Otp.jsx)  
+  Screen-3: Success Screen(Success.jsx)  
 - The backend of the server is not deployed on any website that's why I have used server for the api call.
 - Both repo (otp-verification-client, otp-verification-server) needs to be in the local to run perfectly.
 - The app has responsive Design across multiple devices like laptop, mobile, tablet, etc.
