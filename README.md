@@ -5,7 +5,7 @@
 - The App has 3 screens:  
   Screen-1: Mobile Number Screen(SignIn.jsx)  
   Screen-2: OTP Verification Screen(Otp.jsx)  
-  Screen-3: Success Screen(Success.jsx)  
+  Screen-3: Success Screen(Success.jsx)
 - The backend of the server is not deployed on any website that's why I have used local server for the api call.
 - Both repo (otp-verification-client, otp-verification-server) needs to be in the local to run perfectly.
 - The app has responsive Design across multiple devices like laptop, mobile, tablet, etc.
@@ -19,26 +19,26 @@
 - Screen-1: Mobile Number Screen(SignIn.jsx)
 - ### SignIn.jsx
 
-![img](./ss/ss1.jpg)
+![img](ss/ss1.jpg)
 
-- The phone number input text can take number as input only and max. length can be 10. 
+- The phone number input text can take number as input only and max. length can be 10.
 
-![img](./ss/ss2.jpg)
+![img](ss/ss2.jpg)
 
 - It has custom dropdown that shows the country code along with the flag of that country.
 - I have used "libphonenumber-js" library to validate the phone number.
 - I have used "styled-components" library for the css.
 
-![img](./ss/ss3.jpg)
+![img](ss/ss3.jpg)
 
 - Whenever the user enters the OTP screen the number a popup comes up that shows the OTP
 
-![img](./ss/ss4.jpg)
+![img](ss/ss4.jpg)
 
 - We can change the phone number that redirect to "SignIn.jsx" screen
 - We can also ask to resend the otp and the new otp will be different.
 
-![img](./ss/ss5.jpg)
+![img](ss/ss5.jpg)
 
 - OTP is verified if it is wrong a popup will be shown otherwise redirect to success screen.
 
