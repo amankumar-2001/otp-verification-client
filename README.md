@@ -2,7 +2,7 @@
 
 - otp-verification-client is a frontend part of a dummy application capable of otp-verification.
 - Application has same design corresponding to figma design.
-- The App has 3 screens:
+- The App has 3 screens:  
   Screen-1: Mobile Number Screen(SignIn.jsx)  
   Screen-2: OTP Verification Screen(Otp.jsx)  
   Screen-3: Success Screen(Success.jsx)  
@@ -18,23 +18,27 @@
 - Kept the layout of the application simple to have any modification or enhancement in the future to evolve the layout as required
 - Screen-1: Mobile Number Screen(SignIn.jsx)
 - ### SignIn.jsx
-  ![alt text](./Screenshots/Screenshot1.jpg)
-- The phone number input text can take number as input only and max. length can be 10.
-  ![alt text](./Screenshots/Screenshot2.jpg)
+
+![img](./ss/ss1.jpg)
+
+- The phone number input text can take number as input only and max. length can be 10. 
+
+![img](./ss/ss2.jpg)
+
 - It has custom dropdown that shows the country code along with the flag of that country.
 - I have used "libphonenumber-js" library to validate the phone number.
 - I have used "styled-components" library for the css.
 
-![alt text](./Screenshots/Screenshot3.jpg)
+![img](./ss/ss3.jpg)
 
 - Whenever the user enters the OTP screen the number a popup comes up that shows the OTP
 
-![alt text](./Screenshots/Screenshot4.jpg)
+![img](./ss/ss4.jpg)
 
 - We can change the phone number that redirect to "SignIn.jsx" screen
 - We can also ask to resend the otp and the new otp will be different.
 
-![alt text](./Screenshots/Screenshot5.jpg)
+![img](./ss/ss5.jpg)
 
 - OTP is verified if it is wrong a popup will be shown otherwise redirect to success screen.
 
