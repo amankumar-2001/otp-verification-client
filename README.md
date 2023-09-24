@@ -18,26 +18,26 @@ The backend of the server is not deployed on any website that's why I have used 
 
 ### Mobile Number Screen (SignIn.jsx)
 
-![OTP Verification Client](ss/ss1.jpg)
+![OTP Verification Client](images/ss1.jpg)
 
 - Users can input their phone number, which accepts only numeric values with a maximum length of 10 digits.
 
-![Custom Dropdown](ss/ss2.jpg)
+![Custom Dropdown](images/ss2.jpg)
 
 - A custom dropdown displays country codes along with the flags of respective countries.
 
 ### OTP Verification Screen (Otp.jsx)
 
-![Resend OTP](ss/ss3.jpg)
+![Resend OTP](images/ss3.jpg)
 
 - When users enter their phone number, a pop-up displays the OTP (One-Time Password) will cone on otp screen if phone number is valid.
 
-![OTP screen](ss/ss4.jpg)
+![OTP screen](images/ss4.jpg)
 - Users have the option to change their phone number, resend the OTP for a new code, and each new OTP is different.
 
 ### Success Screen (Success.jsx)
 
-![OTP Verification Screen](ss/ss5.jpg)
+![OTP Verification Screen](images/ss5.jpg)
 - OTP is verified, and if correct, users are redirected to the success screen.
 
 ## Getting Started
