@@ -6,7 +6,7 @@ The OTP Verification Client is the front-end component of a dummy application de
 2. **OTP Verification Screen (Otp.jsx)**
 3. **Success Screen (Success.jsx)**
 
-![OTP Verification Client](ss/ss1.jpg)
+The backend of the server is not deployed on any website that's why I have used local server for the api call. Both repo (otp-verification-client, otp-verification-server) needs to be in the local to run perfectly.
 
 ## Key Features
 
@@ -18,26 +18,26 @@ The OTP Verification Client is the front-end component of a dummy application de
 
 ### Mobile Number Screen (SignIn.jsx)
 
-![signIn.jsx](ss/ss2.jpg)
+![OTP Verification Client](ss/ss1.jpg)
 
 - Users can input their phone number, which accepts only numeric values with a maximum length of 10 digits.
 
-![Custom Dropdown](ss/ss3.jpg)
+![Custom Dropdown](ss/ss2.jpg)
 
 - A custom dropdown displays country codes along with the flags of respective countries.
 
 ### OTP Verification Screen (Otp.jsx)
 
-![OTP Verification Screen](ss/ss4.jpg)
+![Resend OTP](ss/ss3.jpg)
 
-- When users enter their phone number, a pop-up displays the OTP (One-Time Password).
+- When users enter their phone number, a pop-up displays the OTP (One-Time Password) will cone on otp screen if phone number is valid.
 
-![Resend OTP](ss/ss5.jpg)
-
+![OTP screen](ss/ss4.jpg)
 - Users have the option to change their phone number, resend the OTP for a new code, and each new OTP is different.
 
 ### Success Screen (Success.jsx)
 
+![OTP Verification Screen](ss/ss5.jpg)
 - OTP is verified, and if correct, users are redirected to the success screen.
 
 ## Getting Started
