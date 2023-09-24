@@ -1,57 +1,69 @@
-# otp-verification-client
+# OTP Verification Client
 
-- otp-verification-client is a frontend part of a dummy application capable of otp-verification.
-- Application has same design corresponding to figma design.
-- The App has 3 screens:  
-  Screen-1: Mobile Number Screen(SignIn.jsx)  
-  Screen-2: OTP Verification Screen(Otp.jsx)  
-  Screen-3: Success Screen(Success.jsx)
-- The backend of the server is not deployed on any website that's why I have used local server for the api call.
-- Both repo (otp-verification-client, otp-verification-server) needs to be in the local to run perfectly.
-- The app has responsive Design across multiple devices like laptop, mobile, tablet, etc.
-- Techs Involved - ReactJS | Git | HTML | CSS | JavaScript
-- React Library include: axios | libphonenumber-js | react-router-dom | styled-components
+The OTP Verification Client is the front-end component of a dummy application designed for OTP (One-Time Password) verification. This application closely follows a Figma design, featuring three distinct screens:
 
-### Detailed Design
+1. **Mobile Number Screen (SignIn.jsx)**
+2. **OTP Verification Screen (Otp.jsx)**
+3. **Success Screen (Success.jsx)**
 
-- Built the app using react functional components with hooks to handle state and other life cycle methods
-- Kept the layout of the application simple to have any modification or enhancement in the future to evolve the layout as required
-- Screen-1: Mobile Number Screen(SignIn.jsx)
-- ### SignIn.jsx
+![OTP Verification Client](ss/ss1.jpg)
 
-![img](ss/ss1.jpg)
-<img src="https://drive.google.com/file/d/1GAj6XxAgGtGBMOQEKnOU1w-zWAo5aFQd/view?usp=drive_link" />
+## Key Features
 
-- The phone number input text can take number as input only and max. length can be 10.
+- **Responsive Design**: The application is designed to be responsive, ensuring a consistent user experience across various devices, including laptops, mobile phones, and tablets.
 
-![img](ss/ss2.jpg)
+- **Technology Stack**: OTP Verification Client is built using a combination of modern web technologies, including ReactJS, Git, HTML, CSS, and JavaScript. It also utilizes various React libraries such as axios, libphonenumber-js, react-router-dom, and styled-components.
 
-- It has custom dropdown that shows the country code along with the flag of that country.
-- I have used "libphonenumber-js" library to validate the phone number.
-- I have used "styled-components" library for the css.
+## Screenshots
 
-![img](ss/ss3.jpg)
+### Mobile Number Screen (SignIn.jsx)
 
-- Whenever the user enters the OTP screen the number a popup comes up that shows the OTP
+![signIn.jsx](ss/ss2.jpg)
 
-![img](ss/ss4.jpg)
+- Users can input their phone number, which accepts only numeric values with a maximum length of 10 digits.
 
-- We can change the phone number that redirect to "SignIn.jsx" screen
-- We can also ask to resend the otp and the new otp will be different.
+![Custom Dropdown](ss/ss3.jpg)
 
-![img](ss/ss5.jpg)
+- A custom dropdown displays country codes along with the flags of respective countries.
 
-- OTP is verified if it is wrong a popup will be shown otherwise redirect to success screen.
+### OTP Verification Screen (Otp.jsx)
 
-## How to Run the Application:
+![OTP Verification Screen](ss/ss4.jpg)
 
-Clone the repo and set up the application
+- When users enter their phone number, a pop-up displays the OTP (One-Time Password).
 
-- git clone [https://github.com/amankumar-2001/otp-verification-client](https://github.com/amankumar-2001/otp-verification-client.git)
-- cd otp-verification-client
-- npm install
-- npm start
+![Resend OTP](ss/ss5.jpg)
+
+- Users have the option to change their phone number, resend the OTP for a new code, and each new OTP is different.
+
+### Success Screen (Success.jsx)
+
+- OTP is verified, and if correct, users are redirected to the success screen.
+
+## Getting Started
+
+To run the application locally, follow these steps:
+
+1. Clone the repository:
+   ```shell
+   git clone https://github.com/amankumar-2001/otp-verification-client.git
+   ```
+
+2. Navigate to the project directory:
+   ```shell
+   cd otp-verification-client
+   ```
+
+3. Install dependencies:
+   ```shell
+   npm install
+   ```
+
+4. Start the application:
+   ```shell
+   npm start
+   ```
 
 ## Author
 
-- [@amankumar-2001](https://www.github.com/amankumar-2001)
+- [Aman Kumar](https://www.github.com/amankumar-2001)
