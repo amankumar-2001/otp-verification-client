@@ -18,7 +18,7 @@
 - Kept the layout of the application simple to have any modification or enhancement in the future to evolve the layout as required
 - Screen-1: Mobile Number Screen(SignIn.jsx)
 - ### SignIn.jsx
-  ![alt text](./Screenshots/Screenshot1.jpg)
+  ![alt text](./src/images/AKlogo.svg)
 - The phone number input text can take number as input only and max. length can be 10.
   ![alt text](./Screenshots/Screenshot2.jpg)
 - It has custom dropdown that shows the country code along with the flag of that country.
